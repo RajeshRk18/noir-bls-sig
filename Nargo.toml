@@ -5,4 +5,4 @@ authors = ["onurinanc"]
 compiler_version = ">=0.22.0"
 
 [dependencies]
-bigint = { tag = "v0.1.0", git = "https://github.com/RajeshRk18/noir-bls12_381_fe.git" }
+bigint = { path = "../noir-bls12_381_fe" }
