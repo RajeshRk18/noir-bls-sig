@@ -2,7 +2,7 @@
 name = "bls12_381"
 type = "lib"
 authors = ["onurinanc"]
-compiler_version = "0.17.0"
+compiler_version = ">=0.19.2"
 
 [dependencies]
-bigint = { tag = "v0.1.0", git = "https://github.com/RajeshRk18/noir-bls12_381_fe.git" }
+bigint = { tag = "v0.1.0", git = "https://github.com/RajeshRk18/noir-bls12_381_fe" }
